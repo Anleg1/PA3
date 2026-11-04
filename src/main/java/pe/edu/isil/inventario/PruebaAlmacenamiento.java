@@ -1,8 +1,7 @@
 package pe.edu.isil.inventario;
 
 /**
- * Integrante 2: prueba de creación y almacenamiento de datos.
- * Ejecutar esta clase para demostrar el trabajo de la parte 2.
+ * prueba de creación y almacenamiento de datos.
  */
 public class PruebaAlmacenamiento {
 
