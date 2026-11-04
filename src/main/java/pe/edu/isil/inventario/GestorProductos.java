@@ -3,7 +3,7 @@ package pe.edu.isil.inventario;
 import java.util.ArrayList;
 
 /**
- * Integrante 2: creación y almacenamiento de datos.
+ * Integrante Jorge: creación y almacenamiento de datos.
  *
  * Esta clase encapsula la colección principal (ArrayList<Producto>)
  * donde se guardan todos los productos en memoria. Se encarga de:
@@ -112,7 +112,6 @@ public class GestorProductos {
 
     // ========================================
     // ACCESO A LA COLECCION
-    // (para que los integrantes 3 y 4 trabajen sobre la misma lista)
     // ========================================
 
     public ArrayList<Producto> getProductos() {
