@@ -3,7 +3,7 @@ package pe.edu.isil.inventario;
 import java.util.ArrayList;
 
 /**
- * Integrante Jorge: creación y almacenamiento de datos.
+ * Integrante Jorge Benito: creación y almacenamiento de datos.
  *
  * Esta clase encapsula la colección principal (ArrayList<Producto>)
  * donde se guardan todos los productos en memoria. Se encarga de:
