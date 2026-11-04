@@ -141,6 +141,8 @@ public class Main {
             System.out.println(producto);
         }
 
+        OperacionesArrayList.ejecutarPruebas(productos);
+
 
         // ========================================
         // FINALIZAR PROGRAMA
