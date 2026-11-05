@@ -155,7 +155,7 @@ El uso de estas herramientas permite organizar mejor la información y realizar 
 
 En el siguiente enlace se encuentra el video de exposición grupal, donde se presenta el desarrollo del proyecto, las funcionalidades implementadas y las decisiones tomadas durante su elaboración.
 
-**Enlace del video:** [Agregar enlace de YouTube]
+**Enlace del video:** https://youtu.be/TVXTcBK5ybI?si=BsQGkw9GwMNV-qug 
 
 ## 12. Repositorio
 
