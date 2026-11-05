@@ -142,6 +142,7 @@ public class Main {
         }
 
         OperacionesArrayList.ejecutarPruebas(productos);
+        OperacionesCollections.ejecutarOperaciones(productos);
 
 
         // ========================================
