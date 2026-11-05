@@ -11,7 +11,7 @@ public class OperacionesArrayList {
         System.out.println("   OPERACIONES CON ARRAYLIST");
         System.out.println("========================================");
 
-        // 2. Buscar productos
+        //  Buscar productos
         System.out.println("\n1. BUSCAR PRODUCTO:");
         String busqueda = "Teclado";
         boolean encontrado = false;
@@ -23,7 +23,7 @@ public class OperacionesArrayList {
         }
         if (!encontrado) System.out.println("No se encontró el producto.");
 
-        // 4. Actualizar producto con .set()
+        // Actualizar producto con .set()
         System.out.println("\n2. ACTUALIZAR PRODUCTO CON:");
         if (!productos.isEmpty()) {
             Producto productoAntiguo = productos.get(0);
@@ -39,7 +39,7 @@ public class OperacionesArrayList {
             System.out.println("Nuevo valor: " + productos.get(0));
         }
 
-        // 5. Filtrar elementos creando una sub-lista
+        //  Filtrar elementos creando una sub-lista
         System.out.println("\n3. FILTRAR PRODUCTOS POR CATEGORÍA:");
         ArrayList<Producto> listaTecnologia = new ArrayList<>();
         for (Producto p : productos) {
@@ -52,7 +52,7 @@ public class OperacionesArrayList {
             System.out.println(" -> " + p.getNombre() + " (S/ " + p.getPrecio() + ")");
         }
 
-        // 6. Encontrar el índice exacto con .indexOf()
+        // Encontrar el índice exacto con .indexOf()
         System.out.println("\n4. ENCONTRAR POSICIÓN EXACTA:");
         String nombreBuscado = "Monitor Samsung";
         Producto productoEncontrado = null;
