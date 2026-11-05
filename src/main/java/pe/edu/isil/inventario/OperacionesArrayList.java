@@ -8,7 +8,7 @@ public class OperacionesArrayList {
     public static void ejecutarPruebas(ArrayList<Producto> productos) {
 
         System.out.println("========================================");
-        System.out.println("   MÓDULO 2: OPERACIONES CON ARRAYLIST");
+        System.out.println("   OPERACIONES CON ARRAYLIST");
         System.out.println("========================================");
 
         // 2. Buscar productos
