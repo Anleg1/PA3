@@ -73,6 +73,10 @@ Es la clase principal del proyecto. Se encarga de crear la colección de product
 
 Contiene operaciones adicionales sobre la colección, como la búsqueda por nombre, modificación de registros, filtrado por categoría y recuperación de posiciones.
 
+### OperacionesCollections.java
+
+Aplica operaciones de la clase Collections sobre una copia de la lista de productos: ordena por stock, invierte el orden y obtiene el producto más caro y el más barato. Al final comprueba que cada operación haya dado el resultado esperado.
+
 ## 6. Funcionalidades implementadas
 
 El sistema contempla las siguientes operaciones:
@@ -87,6 +91,7 @@ El sistema contempla las siguientes operaciones:
 | Modificación | Permite actualizar los datos de un producto. |
 | Filtrado | Muestra productos según su categoría. |
 | Ordenamiento | Ordena los productos por precio y nombre utilizando Collections.sort(). |
+| Operaciones con Collections | Ordena por stock, invierte el orden con Collections.reverse() y obtiene el producto más caro y más barato con Collections.max() y Collections.min(). |
 
 ## 7. Datos utilizados para las pruebas
 
@@ -131,6 +136,13 @@ Se eligió ArrayList porque permite almacenar una cantidad variable de elementos
 También se utilizó la clase Collections para ordenar los productos según diferentes criterios, como el precio y el nombre.
 
 El uso de estas herramientas permite organizar mejor la información y realizar operaciones de manera sencilla, sin necesidad de implementar estructuras de almacenamiento más complejas.
+
+### Ventajas de utilizar Collections
+
+- Trae métodos listos para ordenar, invertir y obtener el mayor o el menor, así que no hace falta programar esos algoritmos a mano.
+- Con un comparador se puede ordenar la misma lista por distintos criterios (precio, nombre o stock) sin modificar la clase Producto.
+- El código queda más corto y fácil de leer, y hay menos posibilidad de errores.
+- Sus métodos trabajan con cualquier lista, no solo con ArrayList.
 
 ## 10. Integrantes del equipo
 
